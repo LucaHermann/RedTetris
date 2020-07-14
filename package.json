@@ -1,0 +1,27 @@
+{
+  "name": "redtetris",
+  "version": "0.0.2",
+  "description": "redtetris Node/React typescript ready for use",
+  "authors": {
+    "names": "Luca Hermann | Lucien Lacaze",
+    "emails": "lhermann@student.42.fr | llacaze@student.42.fr"
+  },
+  "main": ".prettierrc.js",
+  "scripts": {
+    "dc-build": "docker-compose up --build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/LucaHermann/redtetris.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/LucaHermann/redtetris/issues"
+  },
+  "homepage": "https://gitlab.com/LucaHermann/redtetris#readme",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.25.0",
+    "@typescript-eslint/parser": "^2.25.0",
+    "eslint": "^6.8.0"
+  }
+}

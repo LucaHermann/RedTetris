@@ -1,0 +1,35 @@
+{
+  "include": ["src/**/*.ts", "spec/**/*.ts"],
+  "exclude": ["src/public/", "node_modules"],
+  "compilerOptions": {
+    "outDir": "dist/js/",
+    "baseUrl": "./",
+    "paths": {
+      "@daos": ["src/daos"],
+      "@entities": ["src/entities"],
+      "@shared": ["src/shared"],
+      "@server": ["src/Server"]
+    },
+    "downlevelIteration": true,
+    "types": ["node", "jest"],
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "skipLibCheck": true,
+    "module": "commonjs",
+    "removeComments": false,
+    "sourceMap": true,
+    "strict": true,
+    "target": "es6",
+    "moduleResolution": "node",
+    "allowJs": false,
+    "checkJs": false,
+    "typeRoots": ["./node_modules/@types"],
+    "plugins": [{ "name": "typescript-tslint-plugin", "configFile": "./tslint.json" }]
+  }
+}

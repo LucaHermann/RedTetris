@@ -1,0 +1,20 @@
+.GameSpectrum {
+  width: 22.03125em;
+  height: 12.875em;
+  margin-left: 7.5625em;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.GameSpectrumAdverse {
+  width: 7.03125em;
+  height: 11.875em;
+  border: 2px solid #31E981;
+  /* background-color: #808080; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
+}

@@ -1,0 +1,34 @@
+{
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "exclude": ["node_modules", "**/*.spec.ts"],
+  "compilerOptions": {
+    "jsx": "react",
+    "outDir": "./dist/js/",
+    "baseUrl": ".",
+    "paths": { "@backend/*": ["../server/src/api/*"] },
+    "allowSyntheticDefaultImports": true,
+    "target": "es6",
+    "downlevelIteration": true,
+    "importHelpers": true,
+    "sourceMap": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "allowJs": false,
+    "checkJs": false,
+    "lib": ["dom", "esnext"],
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": false,
+    "removeComments": false,
+    "typeRoots": ["./node_modules/@types"],
+    "esModuleInterop": true, // we don't have issues related to imports
+    "plugins": [{ "name": "typescript-tslint-plugin", "configFile": "./tslint.json" }]
+  }
+}
