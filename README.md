@@ -54,4 +54,3 @@ Create docker images and containers. <br />
 You can edit the config in the docker-compose.yml and inside the `client|server`/Dockerfile
 
 - Run this command for run the server without rebuild container: `docker-compose up`.
-# RedTetris
