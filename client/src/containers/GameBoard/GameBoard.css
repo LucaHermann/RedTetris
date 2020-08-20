@@ -1,21 +1,20 @@
 .GameContainer {
-  width: 100%;
-  height: 100%;
+	width: 100%;
+	height: 100%;
+	outline: none;
 }
 
 .GameBoard {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	color: white;
 }
 
 .GameInfoScore {
-  display: flex;
-  flex-direction: column;
-  width: 30%;
-  justify-content: space-between;
-  align-items: center;
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	justify-content: space-between;
+	align-items: center;
 }
-
-
